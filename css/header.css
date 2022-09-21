@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Biryani:wght@200&family=Laila&display=swap');
+/* font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Biryani', sans-serif;
+font-family: 'Laila', sans-serif; */
 *{
     padding: 0%;
     margin: 0%;
@@ -12,25 +16,28 @@ nav{
     display: flex;
 }
 a{
-    color: #ff0000 !important;
+    color: #EEF1EF !important;
+    font-family: "Biryani", sans-serif;
+    font-size: 20px !important;
 }
 ul{
     width: 100%;
     justify-content: end ;
 }
+
 .nav-item{
     margin: 5px;
 }
 .nav-item:hover{
-    border-bottom: 2px solid #7180AC ;
-    /* box-shadow:  3px 1px 6px #ff0000; */
-    transform: translateX(0);
+    border-bottom: 2px solid #fff ;
+    border-radius: 5px ;
+    /* box-shadow:  3px 1px 6px #ff0000; */ 
 }
 
 /* header */
 header{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 .back-video{
     position: absolute;
@@ -38,11 +45,15 @@ header{
     bottom: 0;
     z-index: -1;
 }
+p{
+    color: #EEF1EF;
+}
 .content{
     padding-top: 200px ;
     text-align: center;
 }
 .content h1{
+    font-family: "Alegreya Sans", sans-serif;
     font-size:120px ;
     color: #fff;
     font-weight: 600;
@@ -51,7 +62,7 @@ header{
 .content a{
     text-decoration:none;
     display: inline-block;
-    color: #fff !important;
+    color: #EEF1EF !important;
     font-size: 24px;
     border: 2px solid #fff;
     padding: 14px 70px;
@@ -59,7 +70,7 @@ header{
     margin-top: 24px;
 }
 .content h1:hover{
-    -webkit-text-stroke: 2px #fff;
+    -webkit-text-stroke: 2px #EEF1EF;
     color: transparent;
 }
 @media (min-aspect-ratio:16/9) {

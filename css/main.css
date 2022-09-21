@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+}
+.about-me{
+    background: black;    /* background: linear-gradient(90deg, rgba(0,19,36,1) 0%, rgba(68,69,130,1) 33%, rgba(63,61,142,1) 63%, rgba(63,61,141,1) 71%); */
+    height: 50vh;
+}
+.stack-{
+    display: block;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+ul{
+    display: flex;
+}
