@@ -13,13 +13,13 @@ main{
 }
 /* Section-about me */
 .about-me{
-    padding-top: 4px ;
+    padding-top: 20px ;
     /* background: black;    background: linear-gradient(90deg, rgba(0,19,36,1) 0%, rgba(68,69,130,1) 33%, rgba(63,61,142,1) 63%, rgba(63,61,141,1) 71%); */
     height: 50vh;
     display: flex;
     justify-content: center;
 }
-.stack-{
+.stack-skill{
     display: flex;
 }
 .blur{
@@ -30,14 +30,25 @@ main{
     text-align: center;
     border-radius: 20px;
 }
-
-
+.btn-cv{
+    text-decoration: none;
+    box-shadow: 0 0 10px #5051a1;
+    border-radius: 15px;
+    padding: 7px;
+    
+}
+.text-cv:hover{
+    color: #adadbb;
+}
+.text-cv{
+    font-size:12px ;
+}
 /*Section-Skills */
 img{
     width: 100px;
     border-radius: 150px;
     margin-top: 20px;
-    border: 3px solid #232323;
+    border: 3px solid #4e4e4e;
     backdrop-filter: blur(30px);
     padding: 10px 10px 10px 10px;
     margin: 4px;
