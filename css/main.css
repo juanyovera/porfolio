@@ -44,16 +44,16 @@ main{
     font-size:12px ;
 }
 /*Section-Skills */
-img{
+.img-skills{
     width: 100px;
-    border-radius: 150px;
+    border-radius: 20px;
     margin-top: 20px;
-    border: 3px solid #4e4e4e;
+    /* border: 3px solid #4e4e4e; */
     backdrop-filter: blur(30px);
     padding: 10px 10px 10px 10px;
     margin: 4px;
 }
-img:hover{
+.img-skills:hover{
     box-shadow: 0 0 25px #5051a1;
 }
 ul{
@@ -79,7 +79,7 @@ ul{
 
 .stack-items{
     /* border: 2px solid rgb(0, 0, 0); */
-    margin: 10px;
+
     border-radius: 20px;
     padding: 20px;
 }
@@ -88,4 +88,36 @@ ul{
     font-size: 15px;
     font-family: "Laila",sans-serif;
     font-weight: 300;
+}
+/* Projects-cards*/
+.project{
+    height: 100%;
+}
+ .card-body{
+    background-color: rgb(88, 76, 76) !important; 
+}
+.card-title{
+    text-align: center;
+    color: #5051a1;
+}
+.fa-brands,.fa-solid {
+    border-radius: 40px;
+    padding: 10px;
+    /* box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.5); */
+    margin: 20px;
+    color: #5051a1;
+}
+.fa-brands:hover{
+    color: #363885;
+    box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.5);
+}
+.fa-solid:hover{
+    color: #363885;
+    box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.5);
 }
