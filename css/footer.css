@@ -13,7 +13,7 @@
     border-radius: .25rem;
     padding: 1.5rem;
     color: #333;
-    background-color: #eee;
+    background: linear-gradient(94deg, #d150f8, #bf7aae) ;
     font-weight: bold;
 }
 #contact label{
@@ -116,4 +116,7 @@
 }
 .linkedin{
     background-image: url('../icon/linkedinn.svg');
+}
+.whatsapp{
+    background-image: url('../icon/whatsapp.svg');
 }

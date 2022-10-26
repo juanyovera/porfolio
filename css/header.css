@@ -79,6 +79,8 @@ p{
     -webkit-text-stroke: 2px #EEF1EF;
     color: transparent;
 }
+
+/* Responsive header */
 @media (min-aspect-ratio:16/9) {
     .back-video{
         width: 100%;
@@ -91,13 +93,22 @@ p{
         height: 100%;
     }
 }
-@media (max-width:320px){
-    .content{
-        padding-top: 60px; 
-        padding-left: 20px;
-    }
+@media (max-width: 480px){
     .content h1{
-
-        font-size: 30px;
+        font-size: 60px;
     }
+    .content{
+        padding-top: 170px;
+    }
+    .content a{
+        border-radius:40px ;
+        padding:10px ;
+    }
+}
+@media (max-width: 768px){
+    .content h1{
+        font-size: 100px;
+        padding-top: 140px;
+    }
+    
 }
