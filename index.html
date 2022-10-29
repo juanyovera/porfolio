@@ -46,12 +46,11 @@
     </header>
         <main class="main">
           <!-- ABOUT ME | SOBRE MI -->
-          <article>
           <section class="about-me">
-              <div class="blur">
+              <div class="text-center">
                 <h2>About me</h2>
-                <p>I consider myself a person with active listening skills. I excel at team cooperation and my flexibility. My work is carried out with responsibility, respect, dynamics and above all with a great desire to work. My goal is to gain experience and progress in the IT field.</p>
-                <a class="btn-cv" download="Cv-Juan-Yovera" href="assets/Cv-Juan-Yovera.pdf"><span class="text-cv">Download my CV</span> </a>
+                <p class="py-5">I consider myself a person with active listening skills. I excel at team cooperation and my flexibility. My work is carried out with responsibility, respect, dynamics and above all with a great desire to work. My goal is to gain experience and progress in the IT field.</p>
+                <a class="btn-cv mx-3" download="Cv-Juan-Yovera" href="assets/Cv-Juan-Yovera.pdf"><span class="text-cv">Download my CV</span> </a>
                 <a class="btn-cv" download="Cv-Juan-Yovera" href="assets/Cv-Juan-Yovera.pdf"><span class="text-cv">See my certifications</span> </a>
                 </div>
           </section>
@@ -59,7 +58,6 @@
           <section class="skills">
             <h2 class="text-center">Skills</h2>
             <div class="stack-skill">
-              <div class="stack-items">
                 <ul>
                   <li>
                     <img class="img-skills" src="img/html.png" alt="HTML" title="HTML">
@@ -98,56 +96,8 @@
                     <p class="p-items">NodeJS</p>
                   </li>
                 </ul>
-              </div>
             </div>
           </section>
-        </article>
-        <article>
-          <section class="container-fluid">
-            <h2 class="text-center">Projects</h2>
-            <div class="row row-cols-1 row-cols-1 row-cols-md-3 g-4">
-              <div class="">
-                <div class="card">
-                  <img src="img/chrome_v0cul3yyZp.png" class="card-img" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Encontra tu farmacia</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="text-center">
-                      <a link-card href="https://github.com/Marcos-mi/Encontra-tu-farmacia" target="_blank"><i class="fa-brands fa-github">Repositorio</i></a>
-                      <a link-card href="https://encontratufarmacia.site/" target="_blank"><i class="fa-solid fa-eye">View</i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="img/chrome_v0cul3yyZp.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="link-cards text-center">
-                    <a href=""><i class="fa-brands fa-github">Repositorio</i></a>
-                    <a href=""><i class="fa-solid fa-eye">View</i></a>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="img/chrome_v0cul3yyZp.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    <div class="link-cards text-center">
-                      <a href=""><i class="fa-brands fa-github">Repositorio</i></a>
-                      <a href=""><i class="fa-solid fa-eye">View</i></a>
-                    </div>
-                  </div>
-                </div>
-              </div> 
-            </div>
-          </section>
-        </article>
         </main>
         <footer class="footer py-5">
           <form  action="" id="contact">
@@ -159,36 +109,21 @@
                 type="text" 
                 maxlength="50"
                 pattern="[A-Za-z ñÑ]{2,50}"
-                placeholder="Nombre(*): Cristian Racedo"
                 required>
-            <div class="validation">
-                Utilice solamente letras para escribir su nombre, 
-                el mismo debe poseer entre 2 y 50 caracteres.
-            </div>
             <label for="contact_phone">Ingrese su Telefono</label>
             <input 
                 id="contact_phone"
                 name="contact_phone"
                 type="tel"
                 pattern="[0-9]{6,18}|[\(]\d{2,8}[\)]\d{3,6}[\-]\d{3,6}"
-                placeholder="Telefono(*): (5411)0303-456"
                 required>
-            <div class="validation">
-                Coloque la caracteristica entre parentesis y utilice un guion
-                cada 3 a 6 digitos, como en el ejemplo: (5411)0303-456.
-            </div>
             <label for="contact_email">Ingrese su Correo</label>
             <input
                 id="contact_email" 
                 name="contact_email"
                 type="email"
                 minlength="8"
-                placeholder="Correo(*): Cristiandracedo@hotmail.com"
                 required>
-            <div class="validation">
-                Ingrese una direccion que respete la estructura "usuario@servidor", 
-                la misma debe poseer por lo menos 8 caracteres.
-            </div>
             <label for="contact_consult">Asunto</label>
             <textarea 
                 id="contact_consult"
