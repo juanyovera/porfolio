@@ -4,21 +4,17 @@
     box-sizing: border-box;
 }
 main{
-    width: auto;
-    background-image: url(../img/back-imgg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position: center;
+    background-color: #C297B8;
 }
 /* Section-about me */
 .about-me{
     padding-top: 20px ;
     /* background: black;    background: linear-gradient(90deg, rgba(0,19,36,1) 0%, rgba(68,69,130,1) 33%, rgba(63,61,142,1) 63%, rgba(63,61,141,1) 71%); */
-    height: 100vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
 }
+
 .stack-skill{
     display: flex;
 }
@@ -38,46 +34,43 @@ main{
 /*Section-Skills */
 .img-skills{
     width: 100px;
-    border-radius: 20px;
     margin-top: 20px;
-    /* border: 3px solid #4e4e4e; */
-    backdrop-filter: blur(30px);
     padding: 10px 10px 10px 10px;
-    margin: 4px;
+    margin: 10px;
 }
 .img-skills:hover{
-    box-shadow: 0 0 25px #5051a1;
+    -webkit-box-shadow: -4px 13px 32px -11px rgba(0,0,0,.3);
+    box-shadow: -4px 13px 32px -11px rgba(0,0,0,.3);
 }
 ul{
+    /* display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%; */
+}
+
+.skills{
+    justify-content:center ;
+
+}
+.stack-skill ul{
+    display: flex;
+    /* border: 2px solid wheat; */
+    justify-content: center;
+    height: 50vh;
+    padding: 50px;
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     margin: 0%;
     padding: 0%;
 }
-/* h2{
-    /* border: solid 1px red; 
-} */
-.skills{
-    justify-content:center ;
-    /* border: 2px solid red; */
-}
-.stack-skill{
-    display: flex;
-    /* border: 2px solid wheat; */
-    justify-content: center;
-}
 
 
-.stack-items{
-    /* border: 2px solid rgb(0, 0, 0); */
-
-    border-radius: 20px;
-    padding: 20px;
-}
 .p-items{
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     font-family: "Laila",sans-serif;
     font-weight: 300;
 }
@@ -86,20 +79,17 @@ ul{
     height: 100%;
 }
  .card-body{
-    background-color: rgb(88, 76, 76) !important; 
+    background-color: #1f7c7c !important; 
 }
 .card-title{
     text-align: center;
-    color: #5051a1;
+    color: #000000;
 }
 .fa-brands,.fa-solid {
     border-radius: 40px;
-    padding: 10px;
-    /* box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.6);
-    -webkit-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.5); */
-    margin: 20px;
-    color: #5051a1;
+    padding: 5px;
+    margin: 10px;
+    color: #000000;
 }
 .fa-brands:hover{
     color: #363885;
@@ -112,4 +102,19 @@ ul{
     box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.6);
     -webkit-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.4);
     -moz-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.5);
+}
+/* Media Query */
+@media screen and (max-width:320px) {
+    /* .stack-items{
+        padding:0;
+        margin: 5px;
+        display: block;
+    } */
+    .img-skills{
+        width: 70px;
+    }
+    .skills{
+        height: 80vh;
+        margin-top: 100px;
+    }
 }

@@ -1,13 +1,10 @@
 /* Footer */
 .footer{
-    background-image: url(../img/back-imgg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(167, 99, 99);
 }
 /* Formulario de contacto */
 #contact{
-    max-width: 720px;
+    max-width: 500px;
     display: grid;
     margin: 1rem auto;
     border-radius: .25rem;
@@ -51,33 +48,8 @@
     margin: .25rem 0 0 auto;
     text-transform: uppercase;
 }
-#contact .validation{
-    display: none;
-}
-#contact :focus + .validation{
-    display: block;
-}
-/* Validation */
-#contact :not(button):valid{
-    border-color: #284;
-}
-#contact :valid + .validation{
-    color: #284;
-}
-/*  EXPLICACION:
-    la pseudoclase :valid aplica para los campos
-    cuyas restricciones son respetadas
-*/
-#contact :not(:placeholder-shown):invalid{
-    border-color: #c33;
-}
-#contact :not(:placeholder-shown):invalid + .validation{
-    color: #c33;
-}
-/*  EXPLICACION:
-    la pseudoclase :valid aplica para los campos
-    cuyas restricciones son respetadas
-*/
+
+
 .rules span{
     color: #448;
     font-size: 1.25rem;
