@@ -75,21 +75,22 @@ ul{
     font-weight: 300;
 }
 /* Projects-cards*/
+.card{
+    width: 420px;
+}
 .project{
   height: 50vh;
 }
 /* Media Query */
 @media screen and (max-width:320px) {
-    /* .stack-items{
-        padding:0;
-        margin: 5px;
-        display: block;
-    } */
     .img-skills{
         width: 70px;
     }
     .skills{
-        height: 80vh;
+        height: 55vh;
         margin-top: 100px;
+    }
+    .card{
+        width: 300px;
     }
 }
