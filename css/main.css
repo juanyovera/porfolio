@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 main{
-    background-color: #C297B8;
+    background-color: #2f6266;
 }
 /* Section-about me */
 .about-me{
-    padding-top: 20px ;
+    padding-top: 10px ;
     /* background: black;    background: linear-gradient(90deg, rgba(0,19,36,1) 0%, rgba(68,69,130,1) 33%, rgba(63,61,142,1) 63%, rgba(63,61,141,1) 71%); */
     height: 50vh;
     display: flex;
@@ -41,13 +41,6 @@ main{
 .img-skills:hover{
     -webkit-box-shadow: -4px 13px 32px -11px rgba(0,0,0,.3);
     box-shadow: -4px 13px 32px -11px rgba(0,0,0,.3);
-}
-ul{
-    /* display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%; */
 }
 
 .skills{
@@ -83,6 +76,9 @@ ul{
 }
 /* Media Query */
 @media screen and (max-width:320px) {
+    .about-me{
+        height: 30vh;
+    }
     .img-skills{
         width: 70px;
     }

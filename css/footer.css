@@ -1,6 +1,6 @@
 /* Footer */
 .footer{
-    background-color: rgb(167, 99, 99);
+    background-color: #093A3E;
 }
 /* Formulario de contacto */
 #contact{
@@ -9,8 +9,8 @@
     margin: 1rem auto;
     border-radius: .25rem;
     padding: 1.5rem;
-    color: #333;
-    background: linear-gradient(94deg, #d150f8, #bf7aae) ;
+    color: #cecece;
+    background-color: #439A86;
     font-weight: bold;
 }
 #contact label{
